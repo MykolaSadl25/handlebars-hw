@@ -1,0 +1,33 @@
+{
+  "name": "handlebars-hw",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /handlebars-hw/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykolaSadl25/handlebars-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MykolaSadl25/handlebars-hw/issues"
+  },
+  "homepage": "https://github.com/MykolaSadl25/handlebars-hw#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "handlebars": "^4.7.9",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
